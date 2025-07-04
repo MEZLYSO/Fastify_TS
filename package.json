@@ -3,10 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
-  "scripts":{
-    "start":"bun run ./src/index.ts"
+  "scripts": {
+    "start": "bun --hot run ./src/index.ts"
   },
   "devDependencies": {
+    "@swc/cli": "^0.7.7",
+    "@swc/core": "^1.12.9",
     "@types/bun": "latest"
   },
   "peerDependencies": {
